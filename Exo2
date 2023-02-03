@@ -1,0 +1,16 @@
+Créer un document html dans l’entête duquel vous définirez une fonction calculant le
+carré d’un nombre
+
+<html>
+<head>
+    <title>Calcul du carré d'un nombre</title>
+    <script>
+        function carre(nombre) {
+            return nombre * nombre;
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
