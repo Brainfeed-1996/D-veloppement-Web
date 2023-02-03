@@ -1,0 +1,18 @@
+Créer un document comportant un bouton qui permet d’ouvrir une nouvelle fenêtre dans
+laquelle sera affichée une image. L’URL de l’image sera passée en argument de la fonction
+activée par le bouton. 
+
+<html>
+   <head>
+      <title>Ouvrir une nouvelle fenêtre et afficher une image</title>
+   </head>
+   <body>
+      <input type="button" value="Ouvrir une fenêtre" 
+      onClick="window.open('','','width=400,height=200')"> 
+      <script>
+         function openWindow(url){
+            window.open(url,"","width=400,height=200");
+         }
+      </script>
+   </body>
+</html>
