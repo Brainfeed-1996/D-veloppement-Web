@@ -1,0 +1,28 @@
+Créer un document dans lequel l’utilisateur pourra saisir une expression numérique, à la
+suite de quoi il pourra l’évaluer en cliquant sur le bouton Calculer, le résultat s’affichera dans la
+zone Résultat. 
+
+<html>
+<head>
+    <title>Calculatrice</title>
+    <script language="javascript">
+        function calculer() {
+            // Récupérer la valeur saisie par l'utilisateur
+            let expression = document.getElementById("expression").value;
+
+            // Calculer le résultat de l'expression
+            let resultat = eval(expression);
+
+            // Afficher le résultat
+            document.getElementById("resultat").innerHTML = resultat;
+        }
+    </script>
+</head>
+<body>
+    <h2>Calculatrice</h2>
+    <p>Veuillez saisir une expression numérique :</p>
+    <input type="text" id="expression" />
+    <input type="button" value="Calculer" onclick="calculer()" />
+    <p>Résultat : <span id="resultat"></span></p>
+</body>
+</html>
