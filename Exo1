@@ -1,0 +1,14 @@
+Créer un document html contenant un script qui affiche la chaîne de caractères « Hello
+Net ! » en gras, au centre d’une ligne 
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Net!</title>
+  </head>
+  <body>
+    <script>
+      document.write("<p style='text-align:center;'><strong>Hello Net!</strong></p>");
+    </script>
+  </body>
+</html>
