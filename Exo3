@@ -1,0 +1,11 @@
+Créer un document html dans lequel vous placerez un bouton qui affiche « Bonjour ..»
+dans une boîte d’alerte lorsqu’on appuie dessus (utiliser la méthode alert de l’objet window)
+
+<html>
+  <head>
+    <title>Alert Message</title>
+  </head>
+  <body>
+    <button onclick="alert('Bonjour !')">Cliquez ici !</button>
+  </body>
+</html>
