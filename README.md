@@ -1,2 +1,2 @@
-# D-veloppement-Web
+# Développement-Web
 Exercices
