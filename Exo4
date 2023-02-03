@@ -1,0 +1,17 @@
+Créer un document contenant une fonction qui fait défiler un message de bienvenue
+dans la barre d’état au chargement du document. 
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bienvenue !</title>
+    <script>
+      function afficherMessageBienvenue() {
+        window.status = "Bienvenue sur notre site !";
+      }
+    </script>
+  </head>
+  <body onload="afficherMessageBienvenue()">
+    
+  </body>
+</html>
