@@ -1,0 +1,35 @@
+ Créer un document comportant deux régions : une fenêtre de navigation et une fenêtre
+représentant le document courant, la table des matières affichera la liste des exercices. 
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Document</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="navigation">
+        <h3>Navigation</h3>
+        <ul>
+            <li><a href="#exercice1">Exercice 1</a></li>
+            <li><a href="#exercice2">Exercice 2</a></li>
+            <li><a href="#exercice3">Exercice 3</a></li>
+            <li><a href="#exercice4">Exercice 4</a></li>
+        </ul>
+    </div>
+    <div class="document">
+        <h3>Document</h3>
+        <h4>Table des matières</h4>
+        <ul>
+            <li><a href="#exercice1">Exercice 1</a></li>
+            <li><a href="#exercice2">Exercice 2</a></li>
+            <li><a href="#exercice3">Exercice 3</a></li>
+            <li><a href="#exercice4">Exercice 4</a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
