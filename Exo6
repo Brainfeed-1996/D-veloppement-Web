@@ -1,0 +1,22 @@
+Créer un document comportant une liste de sélection permettant d’accéder à différents
+documents. 
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Liste de sélection</title>
+</head>
+<body>
+	<h1>Liste de sélection</h1>
+	<p>Veuillez sélectionner un document :</p>
+	<form action="#" method="get">
+		<select name="documents">
+			<option value="document1">Document 1</option>
+			<option value="document2">Document 2</option>
+			<option value="document3">Document 3</option>
+			<option value="document4">Document 4</option>
+		</select>
+		<input type="submit" value="Valider"/>
+	</form>
+</body>
+</html>
