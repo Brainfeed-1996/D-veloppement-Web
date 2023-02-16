@@ -1,0 +1,43 @@
+import React, { Component } from 'react';
+
+class ToDoList extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      inputValue: '',
+      todoList: [],
+    };
+  }
+
+  handleChange = event => {
+    this.setState({ inputValue: event.target.value });
+  };
+
+  handleAddToDo = () => {
+    const { todoList, inputValue } = this.state;
+    todoList.push(inputValue);
+    this.setState({ todoList, inputValue: '' });
+  };
+
+  render() {
+    const { todoList, inputValue } = this.state;
+    return (
+      <div>
+        <h2>To Do List</h2>
+        <input
+          type="text"
+          value={inputValue}
+          onChange={this.handleChange}
+        />
+        <button onClick={this.handleAddToDo}>Add To Do</button>
+        <ul>
+          {todoList.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+      </div>
+    );
+  }
+}
+
+export default ToDoList;
